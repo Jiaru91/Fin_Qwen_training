@@ -19,3 +19,17 @@ Fin_Qwen_Training 是一个基于 Qwen-7B 模型的财务分析训练项目，�
 1. 克隆本项目：
    ```bash
    git clone https://github.com/Jiaru91/Fin_Qwen_training.git
+
+2. 运行模型训练：
+python train.py
+
+输入数据： 本项目的数据集为 JSONL 格式，存储在 qwen_financial_data.jsonl 文件中，您可以根据自己的需要修改或添加数据。
+
+功能
+财报分析：该模型可以分析不同公司的财报，提取出关键的财务信息。
+
+模型微调：基于财务数据进行模型的微调，提升其在财务领域的表现。
+
+输出生成：训练后的模型能够生成结构化的财务分析报告。
+
+
